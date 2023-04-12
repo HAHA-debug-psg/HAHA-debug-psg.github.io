@@ -1,3 +1,64 @@
+	* {
+				margin: 0;
+				padding: 0;
+			}
+
+			ul {
+				list-style-type: none;
+			}
+
+			.big{
+				font-size: 18px;
+				font-weight: 800;
+				font-family: 宋体;
+				
+			}
+			.nav {
+				margin: 10px auto;
+				width: 60px;
+				height: 30px;
+			}
+
+			a {
+				font-size: 12px;
+				color: #999;
+				white-space:nowrap
+			}
+
+			/* 当鼠标hover时将一级菜单的字体颜色改为红色 */
+			a:hover {
+				color: #f30213;
+			}
+
+			/* 隐藏二级菜单*/
+			.nav ul li ul {
+				display: none;
+			}
+
+			/* 显示二级菜单 */
+			.nav ul li:hover ul {
+				display: block;
+			}
+
+			/* 鼠标经过li标签显示二级菜单 */
+			.nav ul li:hover .purchase {
+				display: block;
+			}
+
+			/* 鼠标hover时一级菜单的背景为白色 */
+			.nav ul li:hover {
+				background-color: white;
+			}
+
+			/* 为二级菜单的盒子设置宽高，以及边框，将其隐藏起来，用绝对定位脱离文档流 */
+
+			.purchase ul {
+				float: left;
+			}
+
+			.purchase ul li {
+				padding: 0px;
+			}
 body{
 	background-color: #e1e0c7;
 	white-space: pre-line;

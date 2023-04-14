@@ -6,18 +6,13 @@
 			ul {
 				list-style-type: none;				
 			}
-li{
-	padding-top:50px;
-	
-		padding-bottom:50px;
-}
+
 			.nav {
-				margin: 10px 50px;
 				width: 60px;
 			}
-
 			a {
-				font-size: 90px;
+				margin-left: 80px;
+				font-size: 30px;
 				color:rgba(0, 0, 0,0.6);
 				white-space:nowrap;
 				font-family: 宋体;
@@ -37,9 +32,12 @@ li{
 	font-weight: 800;
 	color: #000;
 	
+		font-size: 30px;
+	
 }
 .big:hover{
 	
+		font-size: 30px;
 		font-weight: 800;
 		color: red;
 }
@@ -60,14 +58,12 @@ li{
 			/* 为二级菜单的盒子设置宽高，以及边框，将其隐藏起来，用绝对定位脱离文档流 */
 
 			.purchase ul {
+
 				float: left;
 			}
 
 			.purchase ul li {
-				padding-top: 50px;
-				padding-left: 50px;
-				padding-left: 50px;
-				
+				font-size: 30px;
 			}
 body{
 	background-color: #e1e0c7;

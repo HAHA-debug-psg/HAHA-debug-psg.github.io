@@ -1,28 +1,27 @@
 	* {
 				margin: 0;
 				padding: 0;
-			}
+	}
 
-			ul {
-				list-style-type: none;				
-			}
+	ul {
+			list-style-type: none;				
+	}
 
-			.nav {
-				width: 60px;
-			}
-			a {
-				margin-left: 80px;
-				font-size: 30px;
-				color:rgba(0, 0, 0,0.6);
-				white-space:nowrap;
-				font-family: 宋体;
-				
-			}
+	.nav {
+			width: 60px;
+	}
+	a {
+			margin-left: 80px;
+			font-size: 30px;
+			color:rgba(0, 0, 0,0.6);
+			white-space:nowrap;
+			font-family: 宋体;
+	}
 
 			/* 当鼠标hover时将一级菜单的字体颜色改为红色 */
-			a:hover {
-				color: #f30213;
-			}
+	a:hover {
+		color: #f30213;
+	}
 
 			/* 隐藏二级菜单*/
 			.nav ul li ul {
@@ -42,18 +41,14 @@
 		color: red;
 }
 			/* 显示二级菜单 */
-			.nav ul li:hover ul {
+			/* .nav ul li:hover ul {
 				display: block;
-			}
+			} */
 
 			/* 鼠标经过li标签显示二级菜单 */
-			.nav ul li:hover .purchase {
-				display: block;
-			}
-
+		
 			/* 鼠标hover时一级菜单的背景为白色 */
-			.nav ul li:hover {
-			}
+		
 
 			/* 为二级菜单的盒子设置宽高，以及边框，将其隐藏起来，用绝对定位脱离文档流 */
 
